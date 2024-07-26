@@ -6,8 +6,8 @@ authors = ["McCoy Becker <mccoyb@mit.edu>", "Alexander Lew <alexlew@mit.edu>", "
 readme = "README.md"
 
 [tool.poetry.dependencies]
-# adevjax = {path = "adevjax"}
-# enjax = {path = "genjax", develop = true}
+adevjax = {path = "adevjax"}
+genjax = {path = "genjax", develop = true}
 python = ">=3.9,<3.13"
 
 [build-system]
