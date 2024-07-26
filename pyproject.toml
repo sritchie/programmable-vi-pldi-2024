@@ -8,22 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 adevjax = {path = "adevjax"}
 genjax = {path = "genjax", develop = true}
-python = "3.10.12"
-jax = "0.4.20"
-jaxlib="0.4.20"
-numpy = "1.26.4"
-tensorflow-probability = "0.21.0"
-equinox = "0.11.3"
-numpyro = "0.13.2"
-torch = "2.1.0"
-torchvision = "0.16.0"
-pytest = "8.0.2"
-pytest-benchmark = "4.0.0"
-pyro-ppl = "1.8.6"
-matplotlib = "3.6.2"
-seaborn = "0.12.1"
-jupyterlab = "^4.1.4"
-manim = "^0.18.1"
+python = ">=3.9,<3.13"
 
 [build-system]
 requires = ["poetry-core"]
